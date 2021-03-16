@@ -1,0 +1,14 @@
+#pragma once
+#include <iostream>
+#include <Windows.h>
+#include <string>
+#include <thread>
+#include <chrono>
+#include <algorithm>
+#include <math.h>
+#include <cmath>
+#include <time.h>
+#include <ctime>
+#include <random>
+#include <vector>
+#include <deque>
