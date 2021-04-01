@@ -1,6 +1,6 @@
 #include "c_base_dealer.h"
 
-void CBaseDealer::CheckPenis(CBasePlayer& player) //CBasePenis
+void CBaseDealer::CheckDealer(CBasePlayer& player) //CBasePeepee
 {
 	int nHand = this->GetHand();
 
@@ -27,6 +27,6 @@ void CBaseDealer::Play(CBasePlayer& player)
 	int iNewCard = this->GenerateCard();
 	this->GetCards.push_front(iNewCard);
 	this->SetHand(this->GetHand() + iNewCard);
-	this->CheckPenis(player);
+	this->CheckDealer(player);
 	printf("New dealer hand: %i\n", this->GetHand());
 }
