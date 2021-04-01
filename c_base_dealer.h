@@ -11,7 +11,7 @@ public:
 		this->SetIsDealer(true);
 	};
 
-	void CheckPenis(CBasePlayer& player);
+	void CheckDealer(CBasePlayer& player);
 	void Play(CBasePlayer& player);
 private:
 };
